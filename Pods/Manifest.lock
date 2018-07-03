@@ -1,0 +1,47 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/FTS (2.6.2):
+    - FMDB/standard
+  - FMDB/SQLCipher (2.6.2):
+    - SQLCipher
+  - FMDB/standalone (2.6.2):
+    - FMDB/standalone/default (= 2.6.2)
+    - FMDB/standalone/FTS (= 2.6.2)
+  - FMDB/standalone/default (2.6.2):
+    - sqlite3
+  - FMDB/standalone/FTS (2.6.2):
+    - sqlite3/fts
+  - FMDB/standard (2.6.2)
+  - SQLCipher (3.4.2):
+    - SQLCipher/standard (= 3.4.2)
+  - SQLCipher/common (3.4.2)
+  - SQLCipher/standard (3.4.2):
+    - SQLCipher/common
+  - sqlite3 (3.24.0):
+    - sqlite3/common (= 3.24.0)
+  - sqlite3/common (3.24.0)
+  - sqlite3/fts (3.24.0):
+    - sqlite3/common
+
+DEPENDENCIES:
+  - FMDB
+  - FMDB/FTS
+  - FMDB/SQLCipher
+  - FMDB/standalone
+  - FMDB/standalone/FTS
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FMDB
+    - SQLCipher
+    - sqlite3
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  SQLCipher: f9fcf29b2e59ced7defc2a2bdd0ebe79b40d4990
+  sqlite3: 3ba3b687e159a637b40df3438b860f7b3fe60a96
+
+PODFILE CHECKSUM: cab0365713fb795ea18259f7a8fe063b41058a8a
+
+COCOAPODS: 1.5.0
